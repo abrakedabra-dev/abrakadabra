@@ -1,0 +1,20 @@
+[project]
+name = "abrakadabra"
+version = "0.1.0"
+description = "Офлайн голосовой помощник для macOS на русском"
+requires-python = ">=3.11"
+dependencies = [
+    "faster-whisper>=1.2.1",
+    "mlx-whisper>=0.4.3",
+    "numpy>=2.4.6",
+    "piper-tts>=1.8.0",
+    "sounddevice>=0.5.6",
+    "vosk==0.3.44",
+]
+
+[project.scripts]
+abrakadabra = "abrakadabra:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"

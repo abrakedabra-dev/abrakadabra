@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.venv
+
+# macOS
+.DS_Store
+
+# Логи и личное
+abra.log
+abra.log.old
+start_abra.command
+
+# Голоса качаются отдельно (download_voices.sh), по 60 МБ
+voices/
+
+# Черновики разработки
+stage1_test.py
+stage2_wake.py
