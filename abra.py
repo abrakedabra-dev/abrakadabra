@@ -72,7 +72,8 @@ MIN_SPEECH_SEC = 0.3       # короче — это щелчок или шор�
 # Голос Piper: файл лежит в ~/abrakadabra/voices/<PIPER_VOICE>.onnx
 # Варианты: "ru_RU-denis-medium", "ru_RU-dmitri-medium"
 PIPER_VOICE = "ru_RU-dmitri-medium"   # голос по умолчанию; «смени голос» переключает
-VOICES_DIR = os.path.expanduser("~/abrakadabra/voices")
+PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))   # папка, где лежит abra.py
+VOICES_DIR = os.path.join(PROJECT_DIR, "voices")
 
 SOUND_WAKE = "/System/Library/Sounds/Tink.aiff"
 SOUND_ERROR = "/System/Library/Sounds/Basso.aiff"
@@ -134,7 +135,7 @@ FOLDERS = {
     "абракадабра": "~/abrakadabra", "проект": "~/abrakadabra",
 }
 
-SETTINGS_FILE = os.path.expanduser("~/abrakadabra/settings.json")
+SETTINGS_FILE = os.path.join(PROJECT_DIR, "settings.json")
 TLDS = {"com", "ru", "org", "net", "io", "ai", "tv", "me", "app", "dev", "by", "kz", "ua", "su", "info", "co"}
 BROWSERS = {"Safari", "Google Chrome", "Opera", "Yandex", "Firefox", "Arc", "Microsoft Edge",
             "Brave Browser", "Opera GX", "Vivaldi", "Chromium"}

@@ -21,3 +21,6 @@ voices/
 # Черновики разработки
 stage1_test.py
 stage2_wake.py
+
+# Личные настройки (браузер и т.п.)
+settings.json
