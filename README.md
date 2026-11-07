@@ -51,7 +51,7 @@
 brew install git uv
 
 # 2. Код
-git clone https://github.com/<твой-ник>/abrakadabra.git ~/abrakadabra
+git clone https://github.com/abrakedabra-dev/abrakadabra.git ~/abrakadabra
 cd ~/abrakadabra
 uv sync
 
