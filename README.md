@@ -1,5 +1,7 @@
 # 🪄 Абракадабра
 
+https://github.com/user-attachments/assets/881b1825-73d1-4250-866d-d5b8e63d56f6
+
 Голосовой помощник для macOS, который работает **полностью на твоём компьютере**. Скажи «Абракадабра, Safari», и Safari откроется. Без облака, без подписки, без Siri.
 
 *Offline Russian voice assistant for macOS (Apple Silicon).*
